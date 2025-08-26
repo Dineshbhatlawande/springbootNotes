@@ -12,7 +12,7 @@ public class BeanLifecycleApplicationContext {
 
 
       ###      Bean Lifecycle     ###
-             1) Bean Creation – Spring container instantiates the bean object.
+             1) Bean Creation –  Spring container instantiates the bean object.
              2) Dependency Injection (DI) – Required dependencies are injected into the bean.
              3) Bean Naming – A unique name/id is assigned to the bean by the container.
              4) Initialization (@PostConstruct / afterPropertiesSet) – If defined, initialization methods are called.
